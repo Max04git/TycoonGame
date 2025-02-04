@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Cliker" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:textColor">#FFD700</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:background">#444444</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>

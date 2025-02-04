@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/main"
+android:orientation="vertical"
+android:gravity="center"
+android:padding="16dp">
+
+<TextView
+    android:id="@+id/clickCounterText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Clics: 0"
+    android:textSize="24sp"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/clickButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Cliquer!"
+    android:textSize="18sp"
+    android:layout_marginTop="20dp" />
+
+<TextView
+    android:id="@+id/clickValue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Clics value : 1"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:layout_marginTop="20dp" />
+
+<TextView
+    android:id="@+id/clickBySecond"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Automatic clics/second : 0"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:layout_marginTop="20dp" />
+
+<Button
+    android:id="@+id/upgradeClickButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Upgrade Click (+1 par clic) - 10 clics"
+    android:layout_marginTop="20dp" />
+
+<Button
+    android:id="@+id/upgradePassiveButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Upgrade Passive (+1 clic/s) - 50 clics"
+    android:layout_marginTop="10dp" />
+
+<Button
+    android:id="@+id/upgradeFinal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Upgrade Final - 100 000 clics"
+    android:layout_marginTop="10dp" />
+
+
+</LinearLayout>
